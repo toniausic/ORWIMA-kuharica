@@ -1,4 +1,4 @@
-package hr.ferit.toniausic.Kuharica
+package hr.ferit.larscupec.lv1
 
 import org.junit.Test
 

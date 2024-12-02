@@ -1,4 +1,4 @@
-package hr.ferit.toniausic.Kuharica
+package hr.ferit.larscupec.lv1
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("hr.ferit.toniausic.Kuharica", appContext.packageName)
+        assertEquals("hr.ferit.larscupec.lv1", appContext.packageName)
     }
 }

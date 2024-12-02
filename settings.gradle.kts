@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Kuharica"
+rootProject.name = "LV1"
 include(":app")
+ 

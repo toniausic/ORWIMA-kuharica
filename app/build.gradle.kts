@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "hr.ferit.toniausic.Kuharica"
+    namespace = "hr.ferit.larscupec.lv1"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "hr.ferit.toniausic.Kuharica"
+        applicationId = "hr.ferit.larscupec.lv1"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -28,11 +28,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "1.8"
     }
     buildFeatures {
         compose = true
